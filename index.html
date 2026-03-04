@@ -40,6 +40,7 @@
       display: flex; align-items: center; padding: 0 16px;
     }
     .nav-dot { width: 27px; height: 27px; background: #1a1a1a; border-radius: 50%; }
+    .nav-title { font-family: 'Brigast', Georgia, serif; font-size: 1rem; color: #1a1a1a; margin-left: 10px; letter-spacing: 0.04em; }
 
     .heading {
       position: absolute; top: 80px; left: 40px; z-index: 10;
@@ -112,23 +113,17 @@
       100% { transform: translateX(0px) translateY(0px) skewX(0deg); opacity: 0.4; }
     }
 
-    .divider {
-      position: absolute; right: 136px; top: 60px; bottom: 30px;
-      width: 1px; background: rgba(255,255,255,0.15); z-index: 9;
-    }
   </style>
 </head>
 <body>
   <div class="page">
     <div class="bg"></div>
 
-    <div class="navbar"><div class="nav-dot"></div></div>
+    <div class="navbar"><div class="nav-dot"></div><span class="nav-title">elly's portfolio</span></div>
 
     <h1 class="heading">A PORTFOLIO<br>FOR ALL YOUR NEEDS</h1>
 
     <p class="subheading">but not really,<br>this is simply a place to hang out.</p>
-
-    <div class="divider"></div>
 
     <div class="icons-col">
       <a class="icon-btn" href="https://x.com/ghostyph_" target="_blank" title="Twitter">
